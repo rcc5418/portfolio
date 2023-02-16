@@ -1,0 +1,14 @@
+body {
+                background: #ecb3ff;
+                font-family: "Georgia", "Times New Roman", serif;
+            }
+            figure {
+                width: 35%;
+            }
+            img {
+            width: 75%
+            }
+            section {
+                width:80%;
+                margin: auto;
+            }
