@@ -1,14 +1,77 @@
 body {
-                background: #ecb3ff;
-                font-family: "Georgia", "Times New Roman", serif;
-            }
-            figure {
-                width: 35%;
-            }
-            img {
-            width: 75%
-            }
-            section {
-                width:80%;
-                margin: auto;
-            }
+    background: #ecb3ff;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.3vw;
+    line-height: 1.4em;
+    background-image: url(images/background.png);
+    background-repeat: repeat-y;
+    background-color: rgba(236, 179, 255,.8);
+    background-blend-mode: multiply;
+}
+
+p, ul {
+    line-height: 1.5em;
+    border: .5vw;
+    border-style: groove;
+    border-style: outset;
+    border-color: #cc00cc;
+    padding: 1.7vw;
+    background-color: #f2e6ff;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.5vw;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Black", sans-serif;
+    font-size: 1.5vw;
+}
+
+nav#menu {
+    padding: 2vw;
+}
+
+.button {
+    border: .5vw;
+    border-style: outset;
+    border-color: #cc00cc;
+    padding: 1.7vw;
+    background-color: #f2e6ff;
+    color: blue;
+    width: 7vw;
+    display: inline;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+figure {
+    width: 50%;
+}
+figure img {
+    border: .7vw groove #cc00cc;
+    border-radius: 1vw;
+    padding: .5vw;
+}
+figcaption{
+    line-height: 1.1em;
+    border: .3vw;
+    border-style: groove;
+    border-style: outset;
+    border-color: #cc00cc;
+    background-color: #f2e6ff;
+}
+img {
+    width: 75%
+}
+section {
+    width: 80%;
+    margin: auto;
+}
+
+section.gallery {
+    display: flex;
+    width: 100%;
+}
