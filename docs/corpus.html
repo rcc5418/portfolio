@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Reece's Page</title>
+        <link rel="icon" type="image/x-icon" href="images/falling.png" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <h2>Reece's Page</h2>
+        <nav id="menu">
+            <div class="button">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="button">
+                <a href="resume.html">Resume</a>
+            </div>
+            <div class="button">
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <div class="button">
+                <a href="about.html">About</a>
+            </div>
+            <div class="button">
+                <a href="websites.html">Websites</a>
+            </div>
+            <div class="button">
+                <a href="corpus.html">Text Corpus</a>
+            </div>
+        </nav>
+        <section>
+            <h1>Text Corpus Analysis</h1>
+            <p> This page is meant to document my Text Comparison Corpus Analysis project, where
+                I'll take a look at several different text files and compare and contrast their
+                characteristics, like repeated phrases, common words, and how often they appear. The
+                texts I'll be taking a look at are Bram Stoker's <i>Dracula</i>, Mary Shelly's
+                    <i>Frankenstien</i>, and Herman Melville's <i>Moby Dick</i>.The reason I wanted
+                to look at these three books is because they all introduced literary characters who
+                would become massive cultural icons, spawning countless references and adaptations.
+                I thought it could be interesting to identify unique aspects of each work and see
+                how they could have contributed to their modern relevance.</p>
+            <p>The first thing I wanted to do was check how often, and when in the text, the titular
+                characters appeared. By using AntConc's Plot window and searching for specific
+                terms, I can see the density of those terms' appearences in the text. First, I
+                looked at <i>Moby Dick</i>, searching both for the terms 'Moby Dick' and 'white
+                whale'.</p>
+            <section class="gallery">
+                <figure><img src="images/moby_dick_plot_frequency.png" /><figcaption>The plot
+                        frequency of 'Moby Dick'</figcaption></figure>
+                <figure><img src="images/white_whale_plot_frequency.png" /><figcaption>The plot
+                        frequency of 'white whale'</figcaption></figure>
+            </section>
+            <p>As is visible in these graphs, Moby Dick is absent at the beginning of the story,
+                until he's introduced by Ahab once the plot starts to kick up. He isn't very present
+                for a large portion of the story, until the final battle when he attacks the
+                    <i>Pequod</i> for the final time.</p>
+            <section class="gallery">
+                <figure><img src="images/dracula_plot_frequency.png" /><figcaption>The plot
+                        frequency of 'Dracula'</figcaption></figure>
+                <figure><img src="images/count_plot_frequency.png" /><figcaption>The plot frequency
+                        of 'count'</figcaption></figure>
+                <figure><img src="images/dracula_phrase_frequency.png" />
+                    <figcaption>The phrase frequency of 'dracula'</figcaption></figure>
+            </section>
+            <p> In <i>Dracula</i>, the title character isn't mentioned by name that frequently, with
+                only 34 mentions across the 250+ pages. This could be because he is referred to by
+                his title, 'The Count', as seen with the plot frequency graph of 'count', though
+                that could be a completely normal use of the word 'count' as well. Regardless, it's
+                clear that Dracula himself doesn't appear too frequently in the novel. Instead, much
+                of the book's gothic horror is derived from the nature of the world, a warped
+                reality where the dead can rise from their graves and must be slain to protect the
+                living. From a certain point of view, focusing too much on a single character as the
+                'main villain' could detract from that feeling of near-existential horror. </p>
+            <section class="gallery">
+                <figure><img src="images/frankenstein_plot_frequency.png" /><figcaption>The plot
+                        frequency of 'Frankenstein'</figcaption></figure>
+            </section>
+            <section class="gallery">
+                <figure><img src="images/monster_plot_frequency.png" /><figcaption>The plot
+                        frequency of 'monster'</figcaption></figure>
+                <figure><img src="images/fiend_plot_frequency.png" /><figcaption>The plot frequency
+                        of 'fiend'</figcaption></figure>
+                <figure><img src="images/creature_plot_frequency.png" />
+                    <figcaption>The phrase frequency of 'creature'</figcaption></figure>
+            </section>
+            <p>The word 'Frankenstein' appears surprisingly few times in the aptly named text, but
+                this time there's a simple explanation. The creature called Frankenstein today
+                wasn't given a name at all in their literary debut Instead, the title
+                    <i>Frankenstein</i> refers to the main character, Victor Frankenstein. As the
+                book is mostly told from his first-person point of view, his last name isn't
+                mentioned very much. Frankenstein's monster is called a series of derogatory names
+                portrayed in the images above, like 'monster', 'creature', and 'fiend' (it's no
+                wonder they cursed their creator).</p>
+            <figure><img src="images/moby_dick_plot_frequency.png" /><figcaption>The plot frequency
+                    of 'Moby Dick'</figcaption></figure>
+            <figure><img src="images/dracula_plot_frequency.png" /><figcaption>The plot frequency of
+                    'Dracula'</figcaption></figure>
+            <figure><img src="images/monster_plot_frequency.png" /><figcaption>The plot frequency of
+                    'monster'</figcaption></figure>
+            <p>In order to draw a conclusion from this comparison, take a look at all the plot
+                frequency graphs together. The most noticable common thread between all of them is
+                that in all instances, there's a large area of blank space where the character is
+                unmentioned or absent, and this makes sense. I've always thought that a a great
+                character is discernable when they can have an enormous impact without being
+                explicitly mentioned or even present at all, and such is the case for these liteary
+                giants.<br /> Moby Dick doesn't physically appear until the book's climax, but he's
+                present throughout the story as Ahab's main driving force. <i>Moby Dick</i> centers
+                around how obsession can drive people to unreasonable and dangerous actions, and
+                that theme is conveyed with how driven Ahab is about this whale which nobody else
+                has even seen. In <i>Dracula</i>, the title character is but part of a larger issue
+                -- the ungodly existence of vampirism itself. As Dracula dissapears from the plot
+                for a large portion of the novel, the atmosphere of gothic horror is sustained by
+                the world's uncanny features. In <i>Frankenstein</i>, it's essential that the
+                monster be absent, at least for the very beginning of the story. <i>Frankenstein</i>
+                is often lauded as the first true science fiction story, and in a similar vein to
+                the sci-fi stories of today, it's important to establish the world the story takes
+                place in, so that the implications of all the deviations from the norm can be fully
+                appreciated.</p>
+            <section class="gallery">
+                <figure><img src="images/moby_dick_wordcloud.png" /><figcaption>A wordcloud of Moby
+                        Dick I made for fun!</figcaption></figure>
+            </section>
+            <p>To conclude, I enjoyed how visiting these classic texts through this unique vise
+                helped me appreciate each of their special aspects. In today's world we are
+                experiencing a bit of an intellectual property draught, as sometimes it can feel
+                like every company on the planet is looking for some near-forgotten character they
+                can make a quick buck off of, but I feel as if that's a fundamental misunderstaning
+                of what makes a character great. More than just recognizability, a character must be
+                useful for the story their written with, ideally leaving a memorable impression
+                while also making use of absence to make their presence felt even stronger.</p>
+        </section>
+    </body>
+</html>
