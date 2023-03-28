@@ -55,6 +55,9 @@ figure img {
     border-radius: 1vw;
     padding: .5vw;
 }
+figure.widescreen{
+    width: 100%
+}
 figcaption{
     line-height: 1.1em;
     border: .3vw;
