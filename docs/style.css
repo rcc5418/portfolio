@@ -78,3 +78,8 @@ section.gallery {
     display: flex;
     width: 100%;
 }
+section#kumu{
+    display: flex;
+    width:80%;
+    margin:auto;
+}
