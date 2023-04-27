@@ -100,3 +100,7 @@ p#kumuDesc{
     width:10%;
     flex: 1;
 }
+
+img#license{
+    width: 10%;
+}
