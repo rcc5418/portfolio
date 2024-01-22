@@ -8,7 +8,6 @@ body {
     background-color: rgba(236, 179, 255,.8);
     background-blend-mode: multiply;
 }
-
 p, ul {
     line-height: 1.5em;
     border: .5vw;
