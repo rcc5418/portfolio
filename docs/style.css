@@ -11,11 +11,11 @@ body {
 }
 a:link {
     color: blue;
-    font-weight: bold;
+
 }
 a:visited {
     color: purple;
-    font-weight: normal;
+
 }
 h2 {
     line-height: 1.5em;
