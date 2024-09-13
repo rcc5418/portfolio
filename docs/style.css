@@ -57,7 +57,7 @@ h2 {
     justify-content: center;
     font-size: 1.5vw;
 }
-img.bio{
+img.bio {
     background-color: white;
     flex: 0;
     width: 25vw;
@@ -66,6 +66,10 @@ img.bio{
     border: .7vw;
     border-style: outset;
     border-color: teal;
+}
+.resume {
+    width: 100%;
+    height: 700px;
 }
 .character_name {
     font-size: 1.2em;
@@ -144,7 +148,7 @@ section {
     width: 80%;
     margin: auto;
 }
-iframe.itchio{
+iframe.itchio {
     margin: auto;
     display: block;
 }
