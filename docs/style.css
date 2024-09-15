@@ -1,14 +1,52 @@
+/* rcc: Howdy! Recently, the site has gone over a minor overhaul to follow a sort of forest/bug theme. Mostly,
+ * every color has had an update to be wood brown or forest green. */
 body {
     content: "";
     font-family: "Century Schoolbook";
     font-size: 1.2vw;
     position: relative;
     margin: 0;
-    background-image: url(images/background.png);
+    background-image: url(images/backgroundBug2.png);
+    background-size: 100% auto;
     background-repeat: repeat-y;
     background-color: white;
     background-blend-mode: multiply;
 }
+/* Special CSS to handle the nav bar */
+#logoContainer {
+    position: relative;
+    display: inline-block; /* Keeps the logo and title together */
+}
+#logoContainer h2 {
+    position: absolute;
+    bottom: -10%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    margin: 0;
+    font-size: 1.5vw; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 0.5vw;
+    border-radius: 5px;
+}
+nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+}
+nav img#logo {
+    width: 15vw; /* Adjust the size as needed */
+    margin-right: 2vw;
+}
+nav .button-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+nav .button {
+    margin-left: 2vw;
+}
+
 a:link {
     color: blue;
 
@@ -17,17 +55,32 @@ a:visited {
     color: purple;
 
 }
+h1{
+    line-height: 1.5em;
+    border: .5vw;
+    border-style: ridge;
+    border-style: outset;
+    border-color: #8b4513; /* Changed to a wood brown */
+    background-color: #f0e68c; /* Changed to a light earthy yellow */
+    opacity: 1;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    padding: 1vw;
+    font-size: 2.5em;
+    margin-top: 0;
+}
 h2 {
     line-height: 1.5em;
     border: .5vw;
     border-style: ridge;
     border-style: outset;
-    border-color: blue;
-    background-color: white;
-    opacity: 0.9;
+    border-color: #8b4513; /* Changed to a wood brown */
+    background-color: #f0e68c; /* Changed to a light earthy yellow */
+    opacity: 1;
     border-radius: 10px;
     text-align: center;
-    color: #00204f;
+    color: black;
     padding: 1vw;
     font-size: 2.5em;
     margin-top: 0;
@@ -38,11 +91,11 @@ ul {
     border: .5vw;
     border-style: ridge;
     border-style: outset;
-    border-color: purple;
-    background-color: white;
+    border-color: #8b4513; /* Changed to a wood brown */
+    background-color: #f5deb3; /* Changed to wheat color */
     color: black;
     width: 90%;
-    opacity: 0.9;
+    opacity: 1;
     border-radius: 10px;
     padding: 1vw;
     font-size: 1.25em;
@@ -58,14 +111,14 @@ h2 {
     font-size: 1.5vw;
 }
 img.bio {
-    background-color: white;
+    background-color: #f5deb3; /* Changed to wheat color */
     flex: 0;
     width: 25vw;
     min-height: 25%;
     display: block;
     border: .7vw;
     border-style: outset;
-    border-color: teal;
+    border-color: #8b4513; /* Changed to a wood brown */
 }
 .resume {
     width: 100%;
@@ -93,9 +146,9 @@ nav#menu {
 .button {
     border: .5vw;
     border-style: outset;
-    border-color: yellow;
+    border-color: #556b2f; /* Changed to a dark forest green */
     padding: 1.7vw;
-    background-color: white;
+    background-color: #f0e68c; /* Changed to earthy yellow */
     opacity: .9;
     width: 7vw;
     display: inline;
@@ -106,7 +159,7 @@ figure {
     width: 50%;
 }
 figure img {
-    border: .7vw groove red;
+    border: .7vw groove #8b4513; /* Changed to a wood brown */
     border-radius: 1vw;
     padding: .5vw;
 }
@@ -118,8 +171,8 @@ figcaption {
     border: .3vw;
     border-style: groove;
     border-style: outset;
-    border-color: rgb(106, 34, 130);
-    background-color: #f2e6ff;
+    border-color: #556b2f; /* Changed to dark green */
+    background-color: #f0e68c; /* Changed to earthy yellow */
 }
 img {
     width: 75%
@@ -128,7 +181,7 @@ img.centerIMG {
     max-width: 60vw;
     max-height: 45vw;
     overflow: auto;
-    border-color: gold;
+    border-color: #8b4513; /* Changed to wood brown */
     border-radius: 10px;
     border-style: outset;
     margin: 20px auto;
@@ -138,7 +191,7 @@ img.centerIMGSmall {
     max-width: 40vw;
     max-height: 30vw;
     overflow: auto;
-    border-color: gold;
+    border-color: #8b4513; /* Changed to wood brown */
     border-radius: 5px;
     border-style: outset;
     margin: 20px auto;
@@ -155,7 +208,7 @@ iframe.itchio {
 iframe.youtube {
     width: 60vw;
     height: 38vw;
-    border-color: pink;
+    border-color: #556b2f; /* Changed to forest green */
     border-radius: 10px;
     border-style: outset;
     margin: 20px auto;
@@ -175,7 +228,7 @@ div#kumuDIV {
     border: .5vw;
     border-style: groove;
     border-style: outset;
-    border-color: #cc00cc;
+   border-color: #8b4513; /* Changed to wood brown */
 
 }
 iframe#kumuID {
