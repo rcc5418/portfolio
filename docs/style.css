@@ -244,3 +244,24 @@ p#kumuDesc {
 img#license {
     width: 10%;
 }
+span.playSpoiler{
+    display: none;
+}
+span.playSpoiler.on{
+    display: inline;
+    color: #580096;
+}
+span.watchSpoiler{
+    display: none;
+}
+span.watchSpoiler.on{
+    display: inline;
+    color: #580096;
+}
+span.readSpoiler{
+    display: none;
+}
+span.readSpoiler.on{
+    display: inline;
+    color: #580096;
+}

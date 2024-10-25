@@ -1,7 +1,10 @@
 window.addEventListener('DOMContentLoaded', init, false);
 
 function init() {
+    
+    //This is for button growth on mouse over in nav bar
     var buttons = document.querySelectorAll('.button');
+    //var buttons = document.getElementsByClassName('button'); rcc: This should work, but I could not get it to work with it!
     var logo = document.querySelector('#logoContainer');
     buttons.forEach(button => {
         button.addEventListener('mouseover', function () {
@@ -20,4 +23,36 @@ function init() {
     logo.addEventListener('mouseout', function () {
         logo.style.transform = 'scale(1)';
     });
+    
+    //This is for spoiler tags on about page
+    var fieldset = document.getElementsByTagName('input');
+    for (var i = 0; i < fieldset.length; i++) {
+        fieldset[i].addEventListener('click', toggle, false);
+    }
+    function toggle() {
+        var id = this.id;
+        switch (id) {
+            case "PLAYToggle": {
+                var playSpoilers = document.getElementsByClassName('playSpoiler');
+                for (var j = 0; j < playSpoilers.length; j++) {
+                    playSpoilers[j].classList.toggle("on");
+                };
+                break;
+            }
+            case "WATCHToggle": {
+                var watchSpoilers = document.getElementsByClassName('watchSpoiler');
+                for (var j = 0; j < watchSpoilers.length; j++) {
+                    watchSpoilers[j].classList.toggle("on");
+                };
+            };
+            break;
+            case "READToggle": {
+                var readSpoilers = document.getElementsByClassName('readSpoiler');
+                for (var j = 0; j < readSpoilers.length; j++) {
+                    readSpoilers[j].classList.toggle("on");
+                };
+            };
+            break;
+        }
+    }
 }
