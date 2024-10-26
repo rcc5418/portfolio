@@ -53,6 +53,14 @@ function init() {
                 };
             };
             break;
+            case "SPIDER": {
+                var spider = document.getElementById('spider');
+                if (this.checked) {
+                    spider.classList.add("on");
+                } else {
+                    spider.classList.remove("on");
+                }
+            }
         }
     }
 }

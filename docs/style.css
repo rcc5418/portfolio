@@ -265,3 +265,6 @@ span.readSpoiler.on{
     display: inline;
     color: #580096;
 }
+#spider.on{
+    display: none;
+}
